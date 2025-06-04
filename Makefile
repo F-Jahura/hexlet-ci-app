@@ -1,3 +1,6 @@
+message:
+		echo "Hello from Hexlet!"
+
 setup: install build
 
 install:
