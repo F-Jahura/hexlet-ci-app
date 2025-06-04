@@ -7,7 +7,7 @@ build:
 	npm run build
 
 start:
-	npm start
+	node app.js
 
 test:
 	npm test
