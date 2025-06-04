@@ -1,5 +1,5 @@
 name: 
-    CI
+    Node CI
 
 on: 
    push
@@ -15,10 +15,13 @@ jobs:
         with:
           node-version: '14'
 
+      - uses: hexlet-components/hello-from-hexlet-action@release 
+
       - name: Set up and test
         run: |
           make setup
           make install
           make test
           make lint
+      
           
